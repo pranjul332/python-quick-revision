@@ -17,6 +17,9 @@ nam = name[0:3]  # slicing the string (it will return 'Joh')
 
 friend = ["Mike", "Sara", "Tom", 5, 6.7, True]  # list of strings and other data types
 
+for friend_name in friend:
+    if(friend_name == "Sara"):
+         print("Found Sara!")
 # dictionary
 
 marks = {
